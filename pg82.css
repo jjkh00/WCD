@@ -1,0 +1,15 @@
+h1,.address {
+    color: navy;
+}
+header,footer {
+    background-color: lightblue;
+}
+#phoneNum {
+    color: maroon;
+}
+header {
+    text-align: center;
+}
+footer {
+    text-align: right;
+}
