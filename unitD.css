@@ -1,35 +1,53 @@
 body{
-    margin: 0;
+    background-color: floralwhite;
+    margin: 0rem;
 }
-
-footer {
+header {
+    height: 4rem;
+    width: 40rem;
     background-color: lightblue;
-    text-align: right;
+    text-align: center;
+    color: navy;
+    padding: 0.01rem
 }
 .container {
-    height: 440px;
-    width: 1200px;
+    height: 24rem;
+    width: 40rem;
     margin: 0 auto;
     border: solid black;
-
+    padding: 0em;
 }
-.leftp {
-   height: 250px;
-   width: 400px;
-   padding: ;
+.leftp { /*Aside*/
+   height: 14rem;
+   width: 33%;
    float: left;
-   background-color: yellow;
+   background-color: burlywood;
 }
-.rightp {
-   height: 250px;
-   width: 800px;
+.leftp p{
+    padding: 0.2rem 1rem;
+}
+.rightp { /*Article*/
+   height: 14rem;
+   width: 67%;
    float: right; 
    background-color: white;
 }
-header {
-    width: 1200px;
-    height: 100px;
+.rightp h2{
+    padding: 0.01rem 0.2rem 0.01rem;
+    margin: 1rem;
+}
+.rightp p {
+    padding: 0.1rem 2rem;
+    margin: 0.3rem;
+}
+footer {
+    height: 6rem;
+    width: 40rem;
     background-color: lightblue;
-    text-align: center;
-    border: solid black;
+    color: navy;
+    overflow: auto;
+}
+footer p {
+    text-align: right;
+    margin: 0.5rem 1rem 0.5rem 0rem;
 }
