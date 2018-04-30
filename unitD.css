@@ -12,7 +12,7 @@ header {
 }
 .container {
     height: 24rem;
-    width: 40rem;
+    max-width: 40rem;
     margin: 0 auto;
     border: solid black;
     padding: 0em;
@@ -45,7 +45,7 @@ footer {
     width: 40rem;
     background-color: lightblue;
     color: navy;
-    overflow: auto;
+    clear: both;
 }
 footer p {
     text-align: right;
