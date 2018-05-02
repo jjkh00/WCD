@@ -14,7 +14,7 @@ article, body, div, footer, header,h1, h2, p {
    margin: 0;
 }
 body {
-  font-family: verdana;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1,h2{
   font-family: 'Playfair Display', serif;
