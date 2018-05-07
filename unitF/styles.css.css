@@ -34,15 +34,6 @@ nav.sitenavigation a:hover {
     text-decoration: none;
     color:black;
 }
-nav.sitenavigation a:focus{
-    
-}
-nav.sitenavigation a:visited{
-
-}
-nav.sitenavigation a:active{
-    
-}
 
 /* body and page container */
 body {
