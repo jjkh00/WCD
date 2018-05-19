@@ -1,59 +1,290 @@
 .container {
-    max-width: 1280px;
+    max-width: 1024px;
     margin: 0 auto;
     background-color: white;
     position: relative;
  }
  .container h1{
      text-align: center;
-     background-color: lightblue;
-     height: 50px;
-     padding: 20px;
+     background-color: white;
+     height: 60px;
+     padding: 50px;
+     padding-top: 20px;
+     color: darkblue;
+     font-family: 'Segoe Print', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 50px;
+     text-transform: uppercase;
  }
  nav.sitenav p{
     display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
  nav.sitenav div{
      text-align: center;
      background-color: black;
+     height:60px;
  }
- article, body, figure, div, footer, header, h1, h2, img, nav, p {
+ nav.sitenav a:hover{
+     background-color:white;
+     color:black;
+     text-decoration: none;
+ }
+ nav.sitenav a:active{
+     color:red;
+ }
+ nav.sitenav a{
+     color:white;
+     text-decoration: none;
+ }
+ nav.sitenav a:link{
+    text-decoration: none;
+    
+ }
+ nav.sitenav a:visited{
+    text-decoration: none;
+    
+ }
+ article, body, figure, div, footer, header, h1, h2,h3, img, nav, p {
     border: 0;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
  }
  article div.intro{
     float:left;
-    width:70%;
-    height:100px;
-    background-color: lightblue;
+    width:65%;
+    height:550px;
+    background-color: white;
+    margin: 10px;
  }
- article div.interest {
-    height: 200px;
-    background-color: lightblue;;
- }
- article div.interest p{
-     text-align: center;
-     margin: 20px 100px 0px 100px;
-     height: 100px;
-     width: 50%;
-     padding-top: 10px;
+#portfolio1{
+    clear:both;
+    float:left;
+    width:570px;
+    height:200px;
+    background-color: white;
+    margin: 10px;
+    text-align: right;
+    padding-right:10px;
+    border-right: solid black;
+    border-width: 1px;
+    margin-top:30px;
+}
+#portfolio1 h2{
+    text-decoration: underline;
+    text-decoration-style: double;
+    padding-top: 10px;
+}
+#portfolio2 h2,#portfolio3 h2{
+    text-decoration: underline;
+    text-decoration-style: double;
+    padding-top: 10px;
+}
+#portfolio1 p,#portfolio3 p{
+    margin-top:15px;
+    margin-left:50px;
+}
+#portfolio2 p{
+    margin-top:15px;
+    margin-right:20px;
+}
+#portfolioimage1{
+    float: right;
+     height:200px;
+     width: 400px;
      background-color: white;
-     border: solid black;
-     position: fixed;
+     margin-right: 20px;
+     margin-top: 30px;
+
+}
+#portfolioimage1 img{
+    width: 400px;
+    height: 200px;
+
+}
+#portfolioimage2 img{
+    width: 500px;
+    height: 250px;
+
+}
+#portfolioimage3 img{
+    width:250px;
+    height:300px;
+}
+#portfolioimage2{
+    clear: both;
+    float:left;
+    width:450px;
+    height:250px;
+    background-color: white;
+    margin: 10px;
+}
+#portfolio2{
+    float: right;
+     height:250px;
+     width: 520px;
+     background-color: white;
+     margin: 10px;
+     padding-left: 10px;
+     border-left: solid black;
+     border-width: 1px;
+}
+#portfolio3{
+    clear:both;
+    float:left;
+    width:570px;
+    height:300px;
+    background-color: white;
+    margin: 10px;
+    text-align: right;
+    padding-right:10px;
+    border-right: solid black;
+    border-width: 1px;
+}
+
+#portfolioimage3{
+    float: right;
+    height:300px;
+    width: 320px;
+    background-color: white;
+    margin: 10px;
+}
+ article div.intro h2{
+     font-family: sans-serif;
+     text-decoration: underline;
+     text-align: center;
+ }
+ article div.intro p{
+     text-align: justify;
+     text-align: center;
+     padding-left: 50px;
+     padding-right:50px;
+     padding-top: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ article div.intro2 {
+     margin-top: 30px;
+     border-radius: 20px;
+ }
+ article div.intro2 h2{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ article div.intro2:hover {
+     background: lightblue;
+ }
+ p.btn{
+     background-color: lightgray;
+     margin-left: 230px;
+     margin-right: 230px;
+     margin-top:10px;
+     padding-bottom:10px;
+     font-size:15px;
+ }
+ p.btn:hover{
+     background-color: gray;
+ }
+ p.btn a:link {
+     text-decoration: none;
+ }
+
+ article div.aboutMe {
+    height: 600px;
+    background-color: white;
+    margin-left: 100px;
+    margin-right:100px;
+    margin-top: 20px;
+ }
+ article div.aboutMe p{
+     text-align: left;
+     margin-bottom: 20px;
+ }
+article div.aboutMe p b {
+    color:darkblue;
+}
+ article div.aboutMe h2{
+     text-align: center;
+     text-transform: uppercase;
+     text-decoration: underline;
+     padding-top: 20px;
+     padding-bottom: 20px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
  aside{
      float: right;
      height:100px;
-     width: 30%;
-     background-color: lightblue;
+     width: 320px;
+     background-color: white;
+     margin: 10px;
+     position: fixed;
+     margin-left: 700px;
  }
- footer {
-     clear:both;
-     text-align: center;
+ aside img{
+    width: 200px;
+    height: 200px;
+    margin-left:60px;
+    border-radius: 50%;
+}
+aside figure figcaption{
+    padding-left:100px;
+    font-style: italic;
+    font-size: 15px;
+}
+ textarea {
+     overflow:auto;
+     width:600px;
+     height:60px;
+     
  }
+ aside .socialmedia {
+     background: white;
+     
+ }
+ aside .socialmedia:hover{
+     background-color: lightgray;
+ }
+ aside h3{
+     padding-left: 10px;
+     padding-bottom: 10px;
+     text-decoration: underline;
+     color:black;
+ }
+aside div.socialmedia p{
+    padding: 15px;
+    font-size: 20px;
+}
+aside div.socialmedia a:link{
+    text-decoration: none;
+}
+aside div.socialmedia a:hover{
+    text-decoration: underline;
+    
+}
+#submitBtn{
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height:25px;
+    width: 60px;
+}
+#clearBtn{
+    height:25px;
+    width: 60px;
+} 
+footer {
+    clear:both;
+    text-align: center;
+    border-top:solid black;
+    border-width: 1px;
+    padding: 10px;
+    border-color: gray;
+}
+footer p{
+    font-weight: bold;
+    font-size: 13px;
+}
