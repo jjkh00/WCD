@@ -5,23 +5,29 @@
         <meta charset="utf-8">
         <meta name="viewport" content=width=device-width>
         <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+        <link rel="shortcut icon" sizes="192x192" href="images/myIcon.ico">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+        <script>
+            function msgbox(){
+                alert("Message sent!")
+            }
+        </script>
     </head>
     <body>
         <div class="container">
             <h1>Khoo Jing Jie</h1>
             <nav class="sitenav">
                 <div>
-                    <p><i class="fa fa-home" aria-hidden="true"></i><a href="index.html">Home</a></p>
-                    <p><a href="aboutMe.html">About Me</a></p>
-                    <p><a href="portfolio.html">Portfolio</a></p>
-                    <p><a href="contact.html">Contact</a></p>
+                    <p><i class="fa fa-home" aria-hidden="true"></i><a href="index.html"> Home</a></p>
+                    <p><i class="fas fa-user"></i><a href="aboutMe.html"> About Me</a></p>
+                    <p><i class="fas fa-sticky-note"></i><a href="portfolio.html"> Portfolio</a></p>
+                    <p><i class="fas fa-comments"></i><a href="contact.html"> Contact</a></p>
                 </div>
             </nav>
         
         <article>
             <div class="intro">
-                <form>
+                <form action="">
                     <fieldset>
                        <legend>Message Me!</legend>
                        <br>
@@ -52,14 +58,14 @@
                        <br>
                        <textarea name="Message"></textarea>
                        <br><br>
-                       <input id="submitBtn" type="Submit"value="Send">
+                       <input id="submitBtn" type="Submit" value="Send" onclick="msgbox()">
                        <input id="clearBtn" type="Reset" value="Clear">
-                    
-                    </fieldset>		  
+                    </fieldset>	
+                </form>	  
               <br>
             </div>
         </article>
-        <aside>
+        <aside class="asideSMedia">
                 <h3>Follow me on social media:</h3>
             <div class="socialmedia">
             
