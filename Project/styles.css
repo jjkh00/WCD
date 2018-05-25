@@ -15,6 +15,7 @@
      font-size: 50px;
      text-transform: uppercase;
      letter-spacing: 10px;
+     display:inline-block;
  }
  nav.sitenav p{
     display: inline-block;
@@ -94,10 +95,12 @@
 #portfolio1 p,#portfolio3 p{
     margin-top:15px;
     margin-left:50px;
+    font-size: 18px;
 }
 #portfolio2 p{
     margin-top:15px;
     margin-right:20px;
+    font-size: 18px;
 }
 #portfolioimage1{
     float: right;
@@ -189,15 +192,17 @@
  #submit1 {
      margin-top: 10px;
      margin-left:100px;
-     background-color: lightgray;
+     background-color: lightgreen;
      padding-left:10px;
      padding-right:10px;
      padding-top:10px;
      padding-bottom:10px;
      font-size:15px;
+     border-radius: 10px;
  }
  #submit1:hover {
-     background: darkgray;
+     background: green;
+     color:white;
  }
 
  article div.aboutMe {
@@ -210,6 +215,7 @@
  article div.aboutMe p{
      text-align: left;
      margin-bottom: 20px;
+     font-size: 16px;
  }
 article div.aboutMe p b {
     color:darkblue;
