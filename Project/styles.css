@@ -1,47 +1,52 @@
-.container {
+article, body, figure, div, footer, header, h1, h2,h3, img, nav, p {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+.container { /* layout of the page */
     max-width: 1024px;
     margin: 0 auto;
-    background-color: white;
+    background-color: #FFFFFF;
     position: relative;
  }
  .container h1{
      text-align: center;
-     background-color: white;
+     background-color: #FFFFFF;
      height: 60px;
-     padding: 50px;
+     padding: 40px;
      padding-top: 20px;
-     color: darkblue;
+     color: #000080;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      font-size: 50px;
      text-transform: uppercase;
-     letter-spacing: 10px;
-     display:inline-block;
+     letter-spacing: 20px;
  }
+ nav.sitenav div{ /* Navigation Bar */
+    text-align: center;
+    background-color: #111111;
+    height:60px;
+}
  nav.sitenav p{
     display: inline-block;
     margin-left: 60px;
     margin-right: 60px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color:white;
+    color:#FFFFFF;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
- nav.sitenav div{
-     text-align: center;
-     background-color: black;
-     height:60px;
- }
- nav.sitenav a:hover{
-     background-color:white;
-     color:black;
+ nav.sitenav a:hover{ 
+     background-color:#FFFFFF;
+     color:#111111;
      text-decoration: none;
  }
  nav.sitenav a:active{
-     color:red;
+     color:#ff0000;
  }
  nav.sitenav a{
-     color:white;
+     color:#FFFFFF;
      text-decoration: none;
      padding-top: 15px;
      padding-bottom: 15px;
@@ -50,35 +55,74 @@
  }
  nav.sitenav a:link{
     text-decoration: none;
-    
  }
  nav.sitenav a:visited{
     text-decoration: none;
-    
  }
- article, body, figure, div, footer, header, h1, h2,h3, img, nav, p {
-    border: 0;
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
- }
- article div.intro{
+ article div.intro{ /*Home page*/
     float:left;
     width:65%;
     height:580px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 10px;
  }
-#portfolio1{
+ article div.intro h2{
+     font-family: sans-serif;
+     text-decoration: underline;
+     text-align: left;
+     padding-left:100px;
+ }
+ article div.intro p{
+     text-align: justify;
+     text-align: left;
+     padding-left: 100px;
+     padding-right:50px;
+     padding-top: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 16px;
+ }
+ article div.introContent {
+     margin-top: 30px;
+     border-radius: 20px;
+ }
+ article div.introContent h2{
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ article div.introContent:hover {
+     background: rgb(204, 224, 255);
+     padding-top:10px;
+     padding-bottom:10px;
+ }
+ aside{ /* Display photo on the right side in my Home Page*/
+    float: right;
+    height:100px;
+    width: 320px;
+    background-color: #FFFFFF;
+    margin: 10px;
+    position: fixed;
+    margin-left: 700px;
+}
+aside img{
+   width: 200px;
+   height: 200px;
+   margin-left:60px;
+   border-radius: 50%;
+}
+aside figure figcaption{
+   padding-left:100px;
+   font-style: italic;
+   font-size: 15px;
+}
+ #portfolio1{ /* Portfolio Page */
     clear:both;
     float:left;
     width:570px;
     height:200px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 10px;
     text-align: right;
     padding-right:10px;
-    border-right: solid black;
+    border-right: solid #111111;
     border-width: 1px;
     margin-top:30px;
 }
@@ -93,12 +137,12 @@
     padding-top: 10px;
 }
 #portfolio1 p,#portfolio3 p{
-    margin-top:15px;
+    margin-top:20px;
     margin-left:50px;
     font-size: 18px;
 }
 #portfolio2 p{
-    margin-top:15px;
+    margin-top:20px;
     margin-right:20px;
     font-size: 18px;
 }
@@ -106,20 +150,17 @@
     float: right;
      height:200px;
      width: 400px;
-     background-color: white;
+     background-color: #FFFFFF;
      margin-right: 20px;
      margin-top: 30px;
-
 }
 #portfolioimage1 img{
     width: 400px;
     height: 200px;
-
 }
 #portfolioimage2 img{
     width: 500px;
     height: 250px;
-
 }
 #portfolioimage3 img{
     width:250px;
@@ -130,17 +171,17 @@
     float:left;
     width:450px;
     height:250px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 10px;
 }
 #portfolio2{
     float: right;
      height:250px;
      width: 520px;
-     background-color: white;
+     background-color: #FFFFFF;
      margin: 10px;
      padding-left: 10px;
-     border-left: solid black;
+     border-left: solid #111111;
      border-width: 1px;
 }
 #portfolio3{
@@ -148,11 +189,11 @@
     float:left;
     width:570px;
     height:300px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 10px;
     text-align: right;
     padding-right:10px;
-    border-right: solid black;
+    border-right: solid #111111;
     border-width: 1px;
 }
 
@@ -160,39 +201,13 @@
     float: right;
     height:300px;
     width: 320px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 10px;
 }
- article div.intro h2{
-     font-family: sans-serif;
-     text-decoration: underline;
-     text-align: left;
-     padding-left:100px;
- }
- article div.intro p{
-     text-align: justify;
-     text-align: left;
-     padding-left: 100px;
-     padding-right:50px;
-     padding-top: 10px;
-     font-family: Arial, Helvetica, sans-serif;
- }
- article div.intro2 {
-     margin-top: 30px;
-     border-radius: 20px;
- }
- article div.intro2 h2{
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- }
- article div.intro2:hover {
-     background: rgb(204, 224, 255);
-     padding-top:10px;
-     padding-bottom:10px;
- }
- #submit1 {
+ #btnToAboutMe { /*About Me Page */
      margin-top: 10px;
      margin-left:100px;
-     background-color: lightgreen;
+     background-color: #83F52C;
      padding-left:10px;
      padding-right:10px;
      padding-top:10px;
@@ -200,14 +215,13 @@
      font-size:15px;
      border-radius: 10px;
  }
- #submit1:hover {
-     background: green;
-     color:white;
+ #btnToAboutMe:hover {
+     background: #49E20E;
+     color:#FFFFFF;
  }
-
  article div.aboutMe {
     height: 600px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin-left: 100px;
     margin-right:100px;
     margin-top: 20px;
@@ -218,7 +232,7 @@
      font-size: 16px;
  }
 article div.aboutMe p b {
-    color:darkblue;
+    color:#000080;
 }
  article div.aboutMe h2{
      text-align: center;
@@ -226,58 +240,30 @@ article div.aboutMe p b {
      padding-top: 20px;
      padding-bottom: 20px;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 30px;
  }
- aside{
-     float: right;
-     height:100px;
-     width: 320px;
-     background-color: white;
-     margin: 10px;
-     position: fixed;
-     margin-left: 700px;
- }
- .asideSMedia{
+ /*Form Page */
+.asideSMedia{ /*Display Social Media platform on the right*/
     float: right;
     height:100px;
     width: 310px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 10px;
     position: relative;
     margin-top: 15px;
 }
- aside img{
-    width: 200px;
-    height: 200px;
-    margin-left:60px;
-    border-radius: 50%;
+aside .socialmedia {
+    background: #FFFFFF;
+    
 }
-aside figure figcaption{
-    padding-left:100px;
-    font-style: italic;
-    font-size: 15px;
+aside .socialmedia:hover{
+    background-color: lightgray;
 }
-legend {
-    font-weight: bold;
-    font-size: 20px;
-}
- textarea {
-     overflow:auto;
-     width:600px;
-     height:100px;
-     resize: vertical;
- }
- aside .socialmedia {
-     background: white;
-     
- }
- aside .socialmedia:hover{
-     background-color: lightgray;
- }
  aside h3{
      padding-left: 10px;
      padding-bottom: 10px;
      text-decoration: underline;
-     color:black;
+     columns: #111111;
  }
 aside div.socialmedia p{
     padding: 15px;
@@ -290,6 +276,17 @@ aside div.socialmedia a:hover{
     text-decoration: underline;
     
 }
+/*Form on contact page*/
+legend { 
+    font-weight: bold;
+    font-size: 20px;
+}
+ textarea {
+     overflow:auto;
+     width:600px;
+     height:100px;
+     resize: vertical;
+ }
 #submitBtn{
     margin-right: 30px;
     padding-left: 10px;
@@ -304,7 +301,7 @@ aside div.socialmedia a:hover{
 footer {
     clear:both;
     text-align: center;
-    border-top:solid black;
+    border-top:solid #111111;
     border-width: 1px;
     padding: 10px;
     border-color: gray;
