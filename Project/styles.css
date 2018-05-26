@@ -103,9 +103,9 @@ article, body, figure, div, footer, header, h1, h2,h3, img, nav, p {
     margin-left: 700px;
 }
 aside img{
-   width: 180px;
-   height: 180px;
-   margin-left:80px;
+   width: 200px;
+   height: 200px;
+   margin-left:60px;
    border-radius: 50%;
 }
 aside figure figcaption{
