@@ -103,15 +103,15 @@ article, body, figure, div, footer, header, h1, h2,h3, img, nav, p {
     margin-left: 700px;
 }
 aside img{
-   width: 200px;
-   height: 200px;
-   margin-left:60px;
+   width: 160px;
+   height: 160px;
+   margin-left:80px;
    border-radius: 50%;
 }
 aside figure figcaption{
-   padding-left:100px;
    font-style: italic;
-   font-size: 15px;
+   font-size: 13px;
+   text-align: center;
 }
  #portfolio1{ /* Portfolio Page */
     clear:both;
