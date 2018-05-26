@@ -93,7 +93,7 @@ article, body, figure, div, footer, header, h1, h2,h3, img, nav, p {
      padding-top:10px;
      padding-bottom:10px;
  }
- aside{ /* Display photo on the right side in my Home Page*/
+ aside{ /* Display photo on the right side of my Home Page*/
     float: right;
     height:100px;
     width: 320px;
