@@ -62,7 +62,7 @@ article, body, figure, div, footer, header, h1, h2,h3, img, nav, p {
  article div.intro{ /*Home page*/
     float:left;
     width:65%;
-    height:580px;
+    height:600px;
     background-color: #FFFFFF;
     margin: 10px;
  }
@@ -220,7 +220,7 @@ aside figure figcaption{
      color:#FFFFFF;
  }
  article div.aboutMe {
-    height: 600px;
+    height: 700px;
     background-color: #FFFFFF;
     margin-left: 100px;
     margin-right:100px;
@@ -276,6 +276,13 @@ aside div.socialmedia a:hover{
     text-decoration: underline;
     
 }
+article div.contentContact{ /*Contact page*/
+    float:left;
+    width:65%;
+    height:420px;
+    background-color: #FFFFFF;
+    margin: 10px;
+ }
 /*Form on contact page*/
 legend { 
     font-weight: bold;
