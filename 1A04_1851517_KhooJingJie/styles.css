@@ -207,16 +207,17 @@ aside figure figcaption{
  #btnToAboutMe { /*About Me Page */
      margin-top: 10px;
      margin-left:100px;
-     background-color: #83F52C;
+     background-color: #3c00ff;
      padding-left:10px;
      padding-right:10px;
      padding-top:10px;
      padding-bottom:10px;
      font-size:15px;
      border-radius: 10px;
+     color:#FFFFFF;
  }
  #btnToAboutMe:hover {
-     background: #49E20E;
+     background: #000080;
      color:#FFFFFF;
  }
  article div.aboutMe {
