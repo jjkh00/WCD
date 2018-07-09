@@ -199,9 +199,6 @@ footer {
         float: right;
         width: 50%;
     }
-    aside {
-        height: 1000px;
-    }
 }
 @media screen and (min-width: 800px) {
     header {
@@ -242,7 +239,6 @@ footer {
     aside {
         float: right;
         width: 30%;
-        height: 300px;
         display: block;
         background-color: white;
     }
