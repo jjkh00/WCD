@@ -237,11 +237,11 @@ footer {
     }
     article{
         float: left;
-        width: 65%;
+        width: 64%;
     }
     aside {
         float: right;
-        width: 29%;
+        width: 30%;
         height: 300px;
         display: block;
         background-color: white;
