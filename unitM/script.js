@@ -11,7 +11,7 @@ var defaultsizeBtn = document.querySelector(".selected-button");
 var biggersizeBtn = document.querySelector(".larger-size");
 var html = document.querySelector("html");
 
-function smallersize() {
+function smallersize(){
   smallersizeBtn.className = "selected-button";
   html.className = "smaller-size";
   defaultsizeBtn.className = "html, default-button";

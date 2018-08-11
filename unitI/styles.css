@@ -99,7 +99,6 @@ nav.sitenavigation ul {
     margin-top: 50px;
 }
 nav.sitenavigation li {
-
     padding: 5px;
 }
 nav.sitenavigation a:link {
@@ -186,7 +185,7 @@ footer {
    .top-link {
       display: none;
    }
-}
+
 @media screen and (min-width: 1400px){
     body{
         width: 1400px;

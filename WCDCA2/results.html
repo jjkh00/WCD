@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>JingJie | Result</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="styles.css">
+      <link rel="icon" sizes="192x192" href="images/myIcon.ico">
+      <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+   </head>
+   <body>
+        <div class="container">
+            <div class="navigation-menu-button">
+               <img src="images/menu.png" width="63" height="57" alt="Show navigation">
+            </div>
+        <nav class="sitenav">
+        <div>
+                <a href="index.html"><img src = "images/JJ_logo.png" id="mylogo"></a>
+                <p><i class="fa fa-home" aria-hidden="true"></i><a href="index.html"> Home</a></p>
+                <p><i class="fas fa-user"></i><a href="aboutMe.html"> About Me</a></p>
+                <p><i class="fas fa-sticky-note"></i><a href="portfolio.html"> Portfolio</a></p>
+                <p><i class="fas fa-comments"></i><a href="contact.html"> Contact</a></p>
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="aboutMe.html"> About Me</a></li>
+                    <li><a href="portfolio.html"> Portfolio</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+         <article>
+            <div class="contentResult">
+               <h2>Your form has been submitted</h2>
+               <h3>You entered the following data:</h3>
+         
+               <script>
+                   var formData = location.search;
+                   formData = formData.substring(1, formData.length);
+                   while (formData.indexOf("+") !== -1) {
+                      formData = formData.replace("+", " ");
+                   }
+                   formData = decodeURIComponent(formData);
+                   var formArray = formData.split("&");
+                   for (var i = 0; i < formArray.length; i = i + 1) {
+                      document.write("<p>" + formArray[i] + "</p>");
+                   }
+               </script>
+            </div>
+         </article>
+         <footer>
+            <p><i class="far fa-copyright"></i> 2018 Khoo Jing Jie</p>
+         </footer>
+      </div>
+   </body>
+   <script src="navigation.js"></script>
+</html>

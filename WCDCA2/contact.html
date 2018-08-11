@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JingJie | Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content=width=device-width>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" sizes="192x192" href="images/myIcon.ico">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <!-- script to show message after pressing send button -->
+    <script>
+        function msgbox() {
+            alert("Message sent! Please wait for my reply.")
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation-menu-button">
+            <img src="images/menu.png" width="63" height="57" alt="Show navigation">
+        </div>
+        <nav class="sitenav">
+            <div>
+                <a href="index.html">
+                    <img src="images/JJ_logo.png" id="mylogo">
+                </a>
+                <p>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <a href="index.html"> Home</a>
+                </p>
+                <p>
+                    <i class="fas fa-user"></i>
+                    <a href="aboutMe.html"> About Me</a>
+                </p>
+                <p>
+                    <i class="fas fa-sticky-note"></i>
+                    <a href="portfolio.html"> Portfolio</a>
+                </p>
+                <p>
+                    <i class="fas fa-comments"></i>
+                    <a href="contact.html"> Contact</a>
+                </p>
+                <ul>
+                    <li>
+                        <a href="index.html"> Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutMe.html"> About Me</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"> Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <article>
+            <div class="contentContact">
+                <form name="myForm" method="GET" action="results.html" onsubmit="return validateForm()">
+                    <!-- Message Me Form -->
+                    <fieldset>
+                        <legend>Message Me!</legend>
+                        <br>
+                        <label for="Name">*Name: </label>
+                        <input type="text" placeholder="Please Fill In Your Name" size="30" name="Name" id="Name">
+                        <br>
+                        <br>
+                        <label for="Age">Age: </label>
+                        <input type="number" placeholder="Please Fill In Your Age" name="Age" id="Age">
+                        <br>
+                        <br>
+                        <label for="Email">*Email: </label>
+                        <input type="email" placeholder="Please Fill In your Email Address" size="30" name="Email" id="Email">
+                        <br>
+                        <br>
+                        <label for="Contact">Contact Number: </label>
+                        <input type="number" placeholder="Please Fill In Your Hp No." name="Contact No." id="Contact">
+                        <br>
+                        <br>
+                        <label for="Gender">*Gender:</label>
+                        <input type="radio" name="Gender" value="Male"> Male
+                        <input type="radio" name="Gender" value="Female"> Female
+                        <hr>
+                        <label for="Subject">*Subject: </label>
+                        <br>
+                        <input type="text" size="30" name="Subject" id="Subject">
+                        <br>
+                        <br>
+                        <label for="Message">*Message: </label>
+                        <br>
+                        <textarea id="taMessage" name="Message"></textarea>
+                        <br>
+                        <br>
+                        <input id="submitBtn" type="Submit" value="Send">
+                        <!-- Send Button-->
+                        <input id="clearBtn" type="Reset" value="Clear">
+                        <!-- Clear Button-->
+                    </fieldset>
+                </form>
+                <br>
+            </div>
+        </article>
+        <aside class="asideSMedia">
+            <!-- Display social media platforms on the right side-->
+            <h3>Follow me on social media:</h3>
+            <div class="socialmedia">
+                <p>
+                    <i class="fab fa-facebook"></i>
+                    <a href="http://facebook.com/milkteax3" target="_blank"> Facebook</a>
+                </p>
+                <p>
+                    <i class="fab fa-twitter"></i>
+                    <a href="http://twitter.com/jingjiekhoo" target="_blank"> Twitter</a>
+                </p>
+                <p>
+                    <i class="fab fa-instagram"></i>
+                    <a href="http://instagram.com/jjkh00" target="_blank"> Instagram</a>
+                </p>
+            </div>
+        </aside>
+        <footer>
+            <p>
+                <i class="far fa-copyright"></i> 2018 Khoo Jing Jie</p>
+        </footer>
+</body>
+</div>
+<script src="navigation.js"></script>
+<script src="contact.js"></script>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JingJie | Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content=width=device-width>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" sizes="192x192" href="images/myIcon.ico">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <!-- 1. Link to jQuery (1.8 or later), -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- 33 KB -->
+    <!-- fotorama.css & fotorama.js. -->
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <!-- 3 KB -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+    <!-- 16 KB -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="navigation-menu-button">
+            <img src="images/menu.png" width="63" height="57" alt="Show navigation">
+        </div>
+        <nav class="sitenav">
+            <div>
+                <a href="index.html">
+                    <img src="images/JJ_logo.png" id="mylogo">
+                </a>
+                <p>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <a href="index.html"> Home</a>
+                </p>
+                <p>
+                    <i class="fas fa-user"></i>
+                    <a href="aboutMe.html"> About Me</a>
+                </p>
+                <p>
+                    <i class="fas fa-sticky-note"></i>
+                    <a href="portfolio.html"> Portfolio</a>
+                </p>
+                <p>
+                    <i class="fas fa-comments"></i>
+                    <a href="contact.html"> Contact</a>
+                </p>
+                <ul>
+                    <li>
+                        <a href="index.html"> Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutMe.html"> About Me</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"> Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1 class="portfolioh1">Certificates</h1>
+        <div class="tab-nav second_show">
+            <a href="#p1">
+                <p class="tab0 active1">Certificate of Excellence</p>
+            </a>
+            <a href="#p2">
+                <p class="tab1">Cisco IT Essentials Certificate</p>
+            </a>
+            <a href="#p3">
+                <p class="tab2">CDC &amp; CCC ITE Scholarship</p>
+            </a>
+        </div>
+        <div class="fotorama" data-nav="thumbs">
+            <img src="images/cert1.png">
+            <img src="images/cert2.png">
+            <img src="images/cert3.png">
+        </div>
+
+        <div id="p1"></div>
+        <div class="portfolioimage1">
+            <!-- First portfolio's image-->
+            <img id="myImg" src="images/achievement1.jpg" alt="A Certificate of Excellence from Intership Program">
+        </div>
+        <div class="portfolio1">
+            <!--First portfolio content-->
+            <h2>Certificate Of Excellence</h2>
+            <p>Awarded the Certificate of Excellence during my 6-Month Enchanced Intership Program. </p>
+            <p class="pEnlarge">*Click on the image to enlarge</p>
+        </div>
+        <div id="p2"></div>
+        <div class="portfolioimage2">
+            <!-- Second portfolio's image -->
+            <img id="myImg2" src="images/achievement2.jpg" alt="Cisoc IT Essentials Certificate">
+        </div>
+        <div class="portfolio2" id="p3">
+            <!-- Second portfolio content -->
+            <h2>Cisco IT Essentials Certificate</h2>
+            <p>During the course, I learn how to build my own PC and upgrade or replace components based on customer needs.
+                </p>
+            <p class="pEnlarge">*Click on the image to enlarge</p>
+        </div>
+        <div id="p3"></div>
+        <div class="portfolioimage3">
+            <img id="myImg3" src="images/achievement3.jpg" alt="CDC &amp; CCC ITE Scholarship Certificate">
+        </div>
+        <div class="portfolio3">
+            <h2>CDC &amp; CCC ITE Scholarship</h2>
+            <p>Awarded the Scholarship award for doing well during my ITE in 2017</p>
+            <p class="pEnlarge">*Click on the image to enlarge</p>
+        </div>
+</body>
+<footer>
+    <p>
+        <i class="far fa-copyright"></i> 2018 Khoo Jing Jie</p>
+</footer>
+</div>
+<div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <span class="close">&times;</span>
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="img01">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
+</div>
+<script src="portfolio.js"></script>
+<script src="navigation.js"></script>
+
+</html>
